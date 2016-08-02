@@ -1,0 +1,9 @@
+<?php
+
+$string = "string aleatoria";
+if(strlen($string) < 6){
+        echo "string menor que 6 caractéries.";
+}else{
+        echo "string maior que 6 caractéries.";
+}
+
