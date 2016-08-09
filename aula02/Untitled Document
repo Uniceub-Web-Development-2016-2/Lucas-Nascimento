@@ -67,5 +67,5 @@ public function __construct($protocol, $ip, $resource, $parameters, $method){
 
 		public function toString(){
 		$url = $this->protocol."://".$this->server_ip."/".$this->resource_path."?";
-			return 
+			return $url->parameters;
 		}
